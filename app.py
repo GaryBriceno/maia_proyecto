@@ -246,5 +246,6 @@ def update_output_div(date, hour, proy):
 
 
 # Run the server
+# Dashboard de pronóstico de demanda energética
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
